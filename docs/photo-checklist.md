@@ -1,26 +1,24 @@
-# Photo checklist for Tiny Desk AI
+# Choose photos for a video remake
 
-A clear source photo gives the video model more usable information. These suggestions can help you choose an input; they cannot guarantee a particular result.
+Start with [the guide for your selected template](../README.md). A good input for a seated portrait may be a poor input for football footwork.
 
-## Before uploading
+## Match the scene
 
-- Use one adult subject who consents to the transformation.
-- Choose a photo you own or have permission to use.
-- Keep the face large enough to see the eyes, nose and mouth clearly.
-- Prefer even lighting and a sharp, unobstructed face.
-- Include some upper body instead of an extremely tight face crop.
-- Avoid a crowd, heavy blur, large sunglasses or objects covering the face.
-- Avoid private documents, addresses and other sensitive details in the background.
+| Scene type | Photo detail to preserve |
+| --- | --- |
+| Portrait, concert or window scene | A sharp face and visible upper-body outfit |
+| Dance, goal or walking scene | Body proportions, feet, arms and room around the subject |
+| Pet scene | Face, ears, coat markings and enough body for the motion |
+| Two-person or trio scene | One separate photo per selected role, in the correct order |
 
-## Why framing matters
+Use a photo you have permission to transform. Human role photos should show adults. Avoid group photos in a single-person slot, heavy blur, covered faces and private details in the background.
 
-A concert scene needs to infer body movement and a new setting from a still image. A tiny face or a partly hidden face leaves less reliable information for preserving appearance. Multiple faces can make the intended subject ambiguous.
+## Pick the role mode first
 
-The output is a creative AI interpretation. Watch the result for changes to facial details, hands and motion before sharing it.
+Some scenes let you replace one character or several. For example, La Calabaza supports a cowboy lead, two pets or a full trio. Zombie Couple distinguishes survivor and infected partner. Do not prepare the number of photos from the thumbnail alone: check the selected mode.
 
-## Check a real input and output
+## Review the result
 
-- [Disco Duke input photo](https://tinydeskai.top/assets/samples/tiny-desk-ai/disco-duke-20261026/input.jpg)
-- [Corresponding example with sound](https://tinydeskai.top/examples/disco-duke?utm_source=github&utm_medium=referral&utm_campaign=tiny_desk_ai&utm_content=photo_checklist)
+Check faces throughout the clip, then hands or paws, body movement and role continuity. A clear source photo helps provide usable detail but does not guarantee identical likeness or motion.
 
-[Read the full photo guide](https://tinydeskai.top/guides/best-photo-for-tiny-desk-ai?utm_source=github&utm_medium=referral&utm_campaign=tiny_desk_ai&utm_content=photo_checklist_guide) · [Create your video](https://tinydeskai.top/?utm_source=github&utm_medium=referral&utm_campaign=tiny_desk_ai&utm_content=photo_checklist_cta#create) · [Back to overview](../README.md)
+[Browse all template guides](../README.md) · [Open ViralRemake](https://viralremake.com/templates?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=photos_guide)

@@ -1,66 +1,78 @@
-# Tiny Desk AI
+# ViralRemake Templates
 
-Turn one adult portrait into a 14-second vertical AI concert video, with generated music and vocals.
+A practical library of **29 photo-to-video meme formats**: what each scene does, which photos to prepare, how to assign roles, and what to check before downloading or sharing.
 
-**[Create a Tiny Desk AI video →](https://tinydeskai.top/?utm_source=github&utm_medium=referral&utm_campaign=tiny_desk_ai&utm_content=readme#create)** · [Watch a real example](https://tinydeskai.top/examples/disco-duke?utm_source=github&utm_medium=referral&utm_campaign=tiny_desk_ai&utm_content=example) · [Making-of guide](https://tinydeskai.top/guides/how-to-make-outstanding-tiny-desk-ai?utm_source=github&utm_medium=referral&utm_campaign=tiny_desk_ai&utm_content=tutorial)
+**[Browse the live ViralRemake templates](https://viralremake.com/templates?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=directory_readme)** · [Choose your photos](docs/photo-checklist.md) · [Audio and export](docs/audio-and-export.md) · [Machine-readable catalog](catalog.json)
 
-This is the public demo and practical guide for [Tiny Desk AI](https://tinydeskai.top/). It includes a real output, photo tips, and audio/export notes. The production application's source code is not included.
+Maintained for [ViralRemake](https://viralremake.com/) and its related tools. This is a public usage and discovery library; it does not include the production applications or their private generation prompts.
 
-## Watch the result
+## Find a format
 
-[![Disco Duke: a real Tiny Desk AI output. Click to watch with sound.](https://tinydeskai.top/assets/samples/tiny-desk-ai/native-audio-20261026/poster.jpg)](https://tinydeskai.top/examples/disco-duke?utm_source=github&utm_medium=referral&utm_campaign=tiny_desk_ai&utm_content=demo_poster)
+Each guide contains casting advice, a scene-specific review checklist, timing and sound notes, and a link to the live tool.
 
-**[Play the original MP4 with sound](https://tinydeskai.top/assets/samples/tiny-desk-ai/native-audio-20261026/preview.mp4)** · [View the input portrait](https://tinydeskai.top/assets/samples/tiny-desk-ai/disco-duke-20261026/input.jpg)
+| Format | Read the guide | Open the tool |
+| --- | --- | --- |
+| Gothic Girls Behind You AI | [Photos, roles and review](templates/gothic-girls-behind-you-ai.md) | [Create on ViralRemake](https://viralremake.com/templates/gothic-girls-behind-you-ai?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=gothic-girls-behind-you-ai_directory) |
+| Singing Pet AI | [Photos, roles and review](templates/singing-pet-ai.md) | [Create on ViralRemake](https://viralremake.com/templates/singing-pet-ai?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=singing-pet-ai_directory) |
+| Closed on Sunday AI | [Photos, roles and review](templates/closed-on-sunday-ai.md) | [Create on ViralRemake](https://viralremake.com/templates/closed-on-sunday-ai?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=closed-on-sunday-ai_directory) |
+| Hit the Road Dude AI | [Photos, roles and review](templates/hit-the-road-dude-ai.md) | [Create on ViralRemake](https://viralremake.com/templates/hit-the-road-dude-ai?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=hit-the-road-dude-ai_directory) |
+| Enzo Celebration AI | [Photos, roles and review](templates/enzo-fernandez-celebration-ai.md) | [Create on ViralRemake](https://viralremake.com/templates/enzo-fernandez-celebration-ai?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=enzo-fernandez-celebration-ai_directory) |
+| Dame Hombro / Bulin 47 AI | [Photos, roles and review](templates/dame-hombro-ai.md) | [Create on ViralRemake](https://viralremake.com/templates/dame-hombro-ai?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=dame-hombro-ai_directory) |
+| Zombie Couple AI | [Photos, roles and review](templates/zombie-couple-ai.md) | [Create on ViralRemake](https://viralremake.com/templates/zombie-couple-ai?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=zombie-couple-ai_directory) |
+| Tesla Roadster AI | [Photos, roles and review](templates/tesla-roadster-ai.md) | [Create on ViralRemake](https://viralremake.com/templates/tesla-roadster-ai?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=tesla-roadster-ai_directory) |
+| Rumpelstiltskin AI | [Photos, roles and review](templates/rumpelstiltskin-ai.md) | [Create on ViralRemake](https://viralremake.com/templates/rumpelstiltskin-ai?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=rumpelstiltskin-ai_directory) |
+| Black Cat Clapping | [Photos, roles and review](templates/black-cat-clapping.md) | [Create on ViralRemake](https://viralremake.com/templates/black-cat-clapping?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=black-cat-clapping_directory) |
+| Toc Toc AI Dance | [Photos, roles and review](templates/toc-toc-ai-dance.md) | [Create on ViralRemake](https://viralremake.com/templates/toc-toc-ai-dance?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=toc-toc-ai-dance_directory) |
+| Crazy Frog AI | [Photos, roles and review](templates/crazy-frog-ai.md) | [Create on ViralRemake](https://viralremake.com/templates/crazy-frog-ai?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=crazy-frog-ai_directory) |
+| Smalltown Boy Cat Dance AI | [Photos, roles and review](templates/smalltown-boy-ai.md) | [Create on ViralRemake](https://viralremake.com/templates/smalltown-boy-ai?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=smalltown-boy-ai_directory) |
+| Single Ladies Dog AI | [Photos, roles and review](templates/single-ladies-dog-ai.md) | [Create on ViralRemake](https://viralremake.com/templates/single-ladies-dog-ai?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=single-ladies-dog-ai_directory) |
+| Knight Cat AI | [Photos, roles and review](templates/knight-cat-ai.md) | [Create on ViralRemake](https://viralremake.com/templates/knight-cat-ai?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=knight-cat-ai_directory) |
+| Raindance AI | [Photos, roles and review](templates/raindance-ai.md) | [Create on ViralRemake](https://viralremake.com/templates/raindance-ai?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=raindance-ai_directory) |
+| Hotel Lobby AI | [Photos, roles and review](templates/hotel-lobby-ai.md) | [Create on ViralRemake](https://viralremake.com/templates/hotel-lobby-ai?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=hotel-lobby-ai_directory) |
+| Fergie Baby Walk | [Photos, roles and review](templates/fergie-baby-walk.md) | [Create on ViralRemake](https://viralremake.com/templates/fergie-baby-walk?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=fergie-baby-walk_directory) |
+| Nicole Kidman Dance | [Photos, roles and review](templates/nicole-kidman-dance-ai.md) | [Create on ViralRemake](https://viralremake.com/templates/nicole-kidman-dance-ai?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=nicole-kidman-dance-ai_directory) |
+| La Calabaza Dance | [Photos, roles and review](templates/la-calabaza-dance-ai.md) | [Create on ViralRemake](https://viralremake.com/templates/la-calabaza-dance-ai?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=la-calabaza-dance-ai_directory) |
+| Avatar Bender | [Photos, roles and review](templates/avatar-bender-ai.md) | [Create on ViralRemake](https://viralremake.com/templates/avatar-bender-ai?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=avatar-bender-ai_directory) |
+| Tiny Desk AI | [Photos, roles and review](templates/tiny-desk-ai.md) | [Create on ViralRemake](https://viralremake.com/templates/tiny-desk-ai?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=tiny-desk-ai_directory) |
+| Özil AI Goal | [Photos, roles and review](templates/ozil-ai-goal.md) | [Create on ViralRemake](https://viralremake.com/templates/ozil-ai-goal?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=ozil-ai-goal_directory) |
+| KDA Firestarter AI | [Photos, roles and review](templates/kda-firestarter-ai.md) | [Create on ViralRemake](https://viralremake.com/templates/kda-firestarter-ai?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=kda-firestarter-ai_directory) |
+| Bad Times AI | [Photos, roles and review](templates/bad-times-ai.md) | [Create on ViralRemake](https://viralremake.com/templates/bad-times-ai?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=bad-times-ai_directory) |
+| Window Peeper AI | [Photos, roles and review](templates/window-peeper-ai.md) | [Create on ViralRemake](https://viralremake.com/templates/window-peeper-ai?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=window-peeper-ai_directory) |
+| Marigold Bridge AI | [Photos, roles and review](templates/marigold-bridge-ai.md) | [Create on ViralRemake](https://viralremake.com/templates/marigold-bridge-ai?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=marigold-bridge-ai_directory) |
+| Fridge POV AI | [Photos, roles and review](templates/fridge-pov-ai.md) | [Create on ViralRemake](https://viralremake.com/templates/fridge-pov-ai?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=fridge-pov-ai_directory) |
+| Dime Dime Baby AI | [Photos, roles and review](templates/dime-dime-baby-ai.md) | [Create on ViralRemake](https://viralremake.com/templates/dime-dime-baby-ai?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=dime-dime-baby-ai_directory) |
 
-The example uses Disco Duke, a fictional adult character. Its soundtrack is AI-generated. Enable sound in your video player to hear it.
+## Dedicated studios
 
-## What you get
+These are separate websites with their own checkout. Purchases and credits do not carry between sites.
 
-| Item | Current output |
-| --- | --- |
-| Input | One photo of a consenting adult |
-| Video | About 14 seconds, vertical 9:16 MP4 |
-| Quality | Fast 480p tier |
-| Audio | Native AI-generated music and vocals, produced with Seedance 2.0 Fast |
-| Download | MP4 with its generated audio track |
-| Payment | One-time credit packs, starting at $5.90 for one video |
+| Format | Website | Output note |
+| --- | --- | --- |
+| [Fergie Baby Walk](templates/fergie-baby-walk.md) | [fergiebabywalkai.com](https://fergiebabywalkai.com/?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=fergie-baby-walk_studio_directory) | Silent MP4; add your own authorized sound |
+| [Nicole Kidman Dance](templates/nicole-kidman-dance-ai.md) | [www.nicolekidmandanceai.com](https://www.nicolekidmandanceai.com/?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=nicole-kidman-dance-ai_studio_directory) | Silent MP4; add your own authorized sound |
+| [La Calabaza Dance](templates/la-calabaza-dance-ai.md) | [calabazadance.com](https://calabazadance.com/?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=la-calabaza-dance-ai_studio_directory) | Silent MP4; add your own authorized sound |
+| [Avatar Bender](templates/avatar-bender-ai.md) | [avatarbenderai.com](https://avatarbenderai.com/?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=avatar-bender-ai_studio_directory) | Silent MP4; add your own authorized sound |
+| [Tiny Desk AI](templates/tiny-desk-ai.md) | [tinydeskai.top](https://tinydeskai.top/?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=tiny-desk-ai_studio_directory) | 14-second Fast 480p MP4 with native AI music and vocals |
 
-The 3-video pack is $14.90 and the 10-video pack is $39.90. Check [current pricing and output details](https://tinydeskai.top/guides/tiny-desk-ai-output-and-pricing?utm_source=github&utm_medium=referral&utm_campaign=tiny_desk_ai&utm_content=pricing) before purchasing.
+## Start with a real example
 
-AI generation varies between runs. The service does not promise the original “Outstanding” recording, an artist's voice, or an exact reconstruction of a reference video.
+[![Disco Duke: a real Tiny Desk AI output, click to watch with sound](https://tinydeskai.top/assets/samples/tiny-desk-ai/native-audio-20261026/poster.jpg)](https://tinydeskai.top/examples/disco-duke?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=tiny-desk-ai_demo_poster)
 
-## Make your own Tiny Desk AI video
+[Watch the 14-second example with sound](https://tinydeskai.top/examples/disco-duke?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=tiny-desk-ai_demo) · [View its fictional adult input portrait](https://tinydeskai.top/assets/samples/tiny-desk-ai/disco-duke-20261026/input.jpg) · [Read the Tiny Desk guide](templates/tiny-desk-ai.md)
 
-1. **Choose a photo.** Use one clearly visible adult face, good lighting, and an unobstructed upper body. Only upload a photo you have permission to use.
-2. **Open [the generator](https://tinydeskai.top/?utm_source=github&utm_medium=referral&utm_campaign=tiny_desk_ai&utm_content=steps#create).** Upload your photo and follow the checkout and generation steps shown there.
-3. **Preview with sound.** New videos include AI-generated audio; older files may be silent.
-4. **Download the MP4.** Keep the original download before resizing, captioning, or replacing its soundtrack in another editor.
+This example comes from the independent Tiny Desk AI studio. Its native generated audio differs from the silent Tiny Desk template export on ViralRemake.
 
-## Practical guides
+## How to use this library
 
-- [Photo checklist: faces, framing, lighting and permissions](docs/photo-checklist.md)
-- [Audio and export: keep the sound or replace it](docs/audio-and-export.md)
-- [Full Tiny Desk AI / Outstanding tutorial](https://tinydeskai.top/guides/how-to-make-outstanding-tiny-desk-ai?utm_source=github&utm_medium=referral&utm_campaign=tiny_desk_ai&utm_content=guide_list)
-- [More photo advice](https://tinydeskai.top/guides/best-photo-for-tiny-desk-ai?utm_source=github&utm_medium=referral&utm_campaign=tiny_desk_ai&utm_content=photo_guide)
-- [Native audio guide](https://tinydeskai.top/guides/add-music-to-tiny-desk-ai?utm_source=github&utm_medium=referral&utm_campaign=tiny_desk_ai&utm_content=audio_guide)
+1. Choose the scene you want, then read its guide.
+2. Prepare the exact role photos required by the mode you select.
+3. Open the linked tool, inspect its reference and check the current model, duration, sound and price.
+4. Review the generated result before sharing. AI identity and motion can vary.
 
-## Frequently asked questions
+Use photos and sound you have permission to use. Format names describe the scenes and search terms; they do not imply endorsement or affiliation with performers, music owners, NPR, film studios or other rights holders.
 
-**Is there a free video generation?**  
-The current product uses paid one-time packs. You can watch the example above before buying.
+## Contribute
 
-**Does it include music?**  
-Yes. New generations use Seedance 2.0 Fast's native audio, including generated music and vocals. The downloaded MP4 retains that track. It is not a licensed copy of the original song.
+[Suggest a documentation correction](CONTRIBUTING.md). Please do not post personal photos, order details or secrets in public issues.
 
-**Can I run the app from this repository?**  
-This repository contains public examples and documentation. Use the hosted generator to create a video.
-
-**Is it affiliated with NPR Tiny Desk?**  
-No. Tiny Desk AI is an independent AI video tool and is not affiliated with NPR.
-
-**Can I contribute?**  
-Corrections to these guides and reproducible documentation issues are welcome. Do not post private photos, payment details, provider keys, or personal order information in public issues.
-
----
-
-[Try Tiny Desk AI at tinydeskai.top](https://tinydeskai.top/?utm_source=github&utm_medium=referral&utm_campaign=tiny_desk_ai&utm_content=footer#create)
+Catalog checked: 2026-10-26. Live tools can change; their current creator and checkout screens take precedence.

@@ -1,25 +1,37 @@
-# Audio and export guide
+# Audio and export across the tools
 
-New Tiny Desk AI generations include a native AI-generated soundtrack from Seedance 2.0 Fast. The MP4 download retains its generated music and vocals. Older output files may be silent.
+Sound depends on the template and website. Do not assume that two tools with the same format name deliver the same soundtrack.
 
-## Listen before editing
+## Silent ViralRemake templates
 
-1. Open the [real example](https://tinydeskai.top/examples/disco-duke?utm_source=github&utm_medium=referral&utm_campaign=tiny_desk_ai&utm_content=audio_documentation).
-2. Enable sound in the player. A muted preview does not tell you whether the file contains an audio track.
-3. Download your generated MP4 and play the local file to check the sound.
+- [Fergie Baby Walk](../templates/fergie-baby-walk.md)
+- [Nicole Kidman Dance](../templates/nicole-kidman-dance-ai.md)
+- [La Calabaza Dance](../templates/la-calabaza-dance-ai.md)
+- [Avatar Bender](../templates/avatar-bender-ai.md)
+- [Tiny Desk AI](../templates/tiny-desk-ai.md)
+- [Özil AI Goal](../templates/ozil-ai-goal.md)
+- [KDA Firestarter AI](../templates/kda-firestarter-ai.md)
+- [Bad Times AI](../templates/bad-times-ai.md)
+- [Window Peeper AI](../templates/window-peeper-ai.md)
+- [Marigold Bridge AI](../templates/marigold-bridge-ai.md)
+- [Fridge POV AI](../templates/fridge-pov-ai.md)
+- [Dime Dime Baby AI](../templates/dime-dime-baby-ai.md)
 
-If a social platform plays the upload silently, check its player mute control and your device's volume as well.
+These export silent MP4 files. Add a track you have permission to use in an editor or your posting app. The four dedicated Fergie, Nicole Dance, Calabaza and Avatar Bender sites also export silent files.
 
-## Keep the generated audio
+## Templates with a listed reference soundtrack
 
-Keep a copy of the original download. In your editor, retain the clip's existing audio track when trimming or adding captions. Check the exported file, because an editor's mute or export setting can remove sound.
+Other entries in the [catalog](../catalog.json) list reference sound. Listen to the selected preview and check the live sound note before creating. Reference voices are not a clone of the person in your photo. A download does not transfer music ownership.
 
-The current generated output is about 14 seconds, vertical 9:16, in the Fast 480p tier. Resizing it for a social upload does not add source detail.
+## Tiny Desk AI has two workflows
 
-## Replace the soundtrack
+- [ViralRemake's Tiny Desk template](https://viralremake.com/templates/tiny-desk-ai?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=audio_main) exports a silent MP4.
+- [The independent Tiny Desk AI studio](https://tinydeskai.top/?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=audio_studio) creates a 14-second Fast 480p video with Seedance 2.0 Fast native AI-generated music and vocals. Older files there may be silent. It does not promise the original “Outstanding” recording or a particular singer's voice.
 
-Use an editor to mute the generated track and add audio you have permission to use. Check the music's terms for your intended platform and use. Listen to the final export so that its trim, volume and ending fit the clip.
+## Keep or replace sound
 
-The generated soundtrack is not the original “Outstanding” recording. The tool does not promise a specific singer's voice, exact lyrics, or an exact match to a reference performance.
+Keep the original MP4 before editing. To retain audio, leave the clip's track enabled and listen to the final exported file. To replace it, mute the existing track and add authorized music. Check the opening, trim and ending as well as volume. A muted player is not evidence that the file has no audio track.
 
-[Read the website's audio guide](https://tinydeskai.top/guides/add-music-to-tiny-desk-ai?utm_source=github&utm_medium=referral&utm_campaign=tiny_desk_ai&utm_content=audio_doc_guide) · [Make a video with sound](https://tinydeskai.top/?utm_source=github&utm_medium=referral&utm_campaign=tiny_desk_ai&utm_content=audio_doc_cta#create) · [Back to overview](../README.md)
+Resizing a low-resolution video for a vertical social upload does not add source detail. Confirm your tool's actual cut, resolution and aspect ratio; for example, the Özil goal format uses landscape framing.
+
+[All templates](../README.md) · [Current ViralRemake pricing](https://viralremake.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=viralremake_templates&utm_content=audio_pricing)
